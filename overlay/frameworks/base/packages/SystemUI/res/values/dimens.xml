@@ -25,11 +25,14 @@
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">8dp</dimen>
 
-    <!-- the padding of the rounded corner -->
-    <dimen name="rounded_corner_content_padding">8dp</dimen>
-
     <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
     <dimen name="config_rounded_mask_size">122px</dimen>
+
+    <!-- The absolute side margins of quick settings -->
+    <dimen name="rounded_corner_content_padding">36px</dimen>
+
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">22dp</dimen>
 
     <!-- Physical buttons and fingerprint sensor location -->
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">130dp</dimen>
